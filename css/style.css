@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fondo {
+    background-color: antiquewhite;
+  }
+  
+  /* Menu */
+  .color {
+    background-color: #00ffff2e;
+  }
+  
+  
+  .navbar-brand img {
+    display: none;
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  /* cards */
+  
+  .card img{
+    height: 55vh;
+  }
+  
+  
+  /* mercaderia */
+  
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    margin-top: 30px;
+    text-align: center;
+    grid-template-areas:
+      "Nombre-del-producto Codigo Cantidad Vencimiento"
+  
+  }
+  
+  .Nombre-del-producto {
+    grid-area: Nombre-del-producto;
+  
+    color: blue;
+  
+  }
+  
+  .Nombre-del-producto li {
+    grid-area: Nombre-del-producto;
+  
+    list-style: none;
+  
+  }
+  
+  
+  .Codigo {
+    grid-area: Codigo;
+  
+    color: rgb(255, 0, 247);
+  }
+  
+  .Codigo li {
+    grid-area: Codigo;
+    list-style: none;
+  }
+  
+  .Unidad  {
+    grid-area: unidad;
+    color: blue;
+  }
+  
+  .unidad li {
+    grid-area: Cantidad;
+    list-style: none;
+  
+  }
+  
+  .Vencimiento {
+    grid-area: Vencimiento;
+    color: red;
+  }
+  
+  .Vencimiento li {
+    grid-area: Vencimiento;
+    list-style: none;
+  }
+  
+  
+  /* compras */
+  
+  .main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+  
+  
