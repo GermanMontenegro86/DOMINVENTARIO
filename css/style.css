@@ -7,94 +7,33 @@
     background-color: antiquewhite;
   }
   
-  /* Menu */
-  .color {
-    background-color: #00ffff2e;
-  }
-  
-  
-  .navbar-brand img {
-    display: none;
-  }
-  
-  .titulo {
+  .titulo h1{
     text-align: center;
+    color:red;
+    margin-top: 20px;
+    background-color: bisque;
+    font-family: cursive;
+    font-size: 4em;
   }
-  
-  /* cards */
-  
-  .card img{
-    height: 55vh;
+
+  .introduccion{
+    
+    background-color: #e78dff80;
+    width: 43vw;
+    font-size: 2em;
+    margin: 0 auto;
   }
-  
-  
-  /* mercaderia */
-  
-  .productos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(100, 1fr);
-    margin-top: 30px;
+
+  .introduccion h2, p{
     text-align: center;
-    grid-template-areas:
-      "Nombre-del-producto Codigo Cantidad Vencimiento"
-  
+    font-family: serif;
   }
-  
-  .Nombre-del-producto {
-    grid-area: Nombre-del-producto;
-  
-    color: blue;
-  
+
+  .btnProductos{
+    margin-left: 127px;
   }
-  
-  .Nombre-del-producto li {
-    grid-area: Nombre-del-producto;
-  
-    list-style: none;
-  
+
+  .listaProductos h2{
+    margin-left: 52px;
+    margin-top: 20px;
   }
-  
-  
-  .Codigo {
-    grid-area: Codigo;
-  
-    color: rgb(255, 0, 247);
-  }
-  
-  .Codigo li {
-    grid-area: Codigo;
-    list-style: none;
-  }
-  
-  .Unidad  {
-    grid-area: unidad;
-    color: blue;
-  }
-  
-  .unidad li {
-    grid-area: Cantidad;
-    list-style: none;
-  
-  }
-  
-  .Vencimiento {
-    grid-area: Vencimiento;
-    color: red;
-  }
-  
-  .Vencimiento li {
-    grid-area: Vencimiento;
-    list-style: none;
-  }
-  
-  
-  /* compras */
-  
-  .main{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 60px;
-  }
-  
-  

@@ -6,11 +6,10 @@ class estructuraProductos {
     }
 
     verProductos() {
-        let mensaje = `producto: ${this.nombre} - precio: $${this.precio} - Stock ${this.stock}`
-        document.getElementById('impimirProductos').innerText= mensaje;
+        let mensaje = `Producto: ${this.nombre} - Precio: $${this.precio} - Stock ${this.stock} `
+        document.getElementById("impimirProductos").innerHTML += mensaje;
 
     }
-
 
 }
 
@@ -43,15 +42,14 @@ function btnProducto() {
         entrada = confirm("Desea cargar productos");
     }
 
-    for(estructuraProductos of productosDatos){
+    for (estructuraProductos of productosDatos) {
 
         estructuraProductos.verProductos();
-        // document.getElementById('impimirProductos').innerText=estructuraProductos;
+       
 
     }
 
-   
-   
+
 
     // let buscar=prompt("buscar coca")
     // buscar=productosDatos.find(el=>el.nombre==="coca");
